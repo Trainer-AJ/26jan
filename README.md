@@ -31,3 +31,8 @@ docker build -t simple-img:latest .
 # run container
 docker run -p 80:80 simple-img:latest
 ```
+
+1. **Now click on open port option**
+2. **type 80**
+3. **click ok**
+4. `A web page should be visible now`

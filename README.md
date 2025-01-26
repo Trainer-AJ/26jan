@@ -18,3 +18,16 @@ docker run my-first-docker-image:latest
 ```
 
 ## Level-2
+
+```sh
+git pull
+
+# get code
+cd nginx
+
+# create new image
+docker build -t simple-img:latest .
+
+# run container
+docker run -p 80:80 simple-img:latest
+```

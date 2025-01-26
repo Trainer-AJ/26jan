@@ -36,3 +36,11 @@ docker run -p 80:80 simple-img:latest
 2. **type 80**
 3. **click ok**
 4. `A web page should be visible now`
+
+## Level-3
+1. login to https://hub.docker.com/
+2. note your `username` and `password` you used to login
+3. run command:
+```sh
+docker login
+```

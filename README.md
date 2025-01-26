@@ -40,11 +40,11 @@ docker run -p 80:80 simple-img:latest
 ## Level-3
 1. login to https://hub.docker.com/
 2. note your `username` and `password` you used to login
-3. run command:
+3. run command => replace `your-username` with your docker username:
 ```sh
-docker login
+docker login -u your-username
 ```
-4. now run => replace your-username with your docker username:
+4. now run => replace `your-username` with your docker username:
 ```sh
 docker tag simple-img:latest your-username/simple-img:latest
 docker push your-username/simple-img:latest

@@ -44,3 +44,9 @@ docker run -p 80:80 simple-img:latest
 ```sh
 docker login
 ```
+4. now run => replace your-username with your docker username:
+```sh
+docker tag simple-img:latest your-username/simple-img:latest
+docker push your-username/simple-img:latest
+```
+5. verify in your dockerhub, image should be visible

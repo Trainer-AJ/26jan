@@ -50,3 +50,12 @@ docker tag simple-img:latest your-username/simple-img:latest
 docker push your-username/simple-img:latest
 ```
 5. verify in your dockerhub, image should be visible
+
+---
+```sh
+#!/bin/bash
+
+# Prompt for Docker username and store it in a variable
+echo "Enter your Docker username:"
+read docker_username
+```
